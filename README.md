@@ -31,7 +31,7 @@ The RESTful API has two endpoints:
 
     - Using cURL:
     ```sh
-      curl -X 'http://localhost:8080/text?p_start=1&p_end=50&w_count_min=1&w_count_max=25'
+      curl -X GET 'http://localhost:8080/text?p_start=1&p_end=50&w_count_min=1&w_count_max=25'
     ```
   
     - Response for the above request:
@@ -50,7 +50,7 @@ The RESTful API has two endpoints:
     
     - Using cURL:
       ```sh
-        curl -X 'http://localhost:8080/history'
+        curl -X GET 'http://localhost:8080/history'
       ```
     - Response for the above request:
       ```sh
