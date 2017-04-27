@@ -3,12 +3,12 @@
 RESTful API that analyses random text generated from http://www.randomtext.me/.
 The text analyser service is based on the MapReduce technic, processing in parallel data and agreggating it in batches.
 
-In order to scale this application Hadoop MapReduce using a cluster could be good idea.
+In order to scale this application, Hadoop MapReduce using a cluster could be good idea.
 For parallelizing the processes have been used latches. Other implementations like CompletionService and Future tasks would work too.
 
 Technologies used are:
   - Spring Boot
-  - H2 database (In order to make easy to execution of this application this in-memory database has been used);
+  - H2 database (In order to make easier the execution of this application, a in-memory database has been used);
   - Junit
   - Maven
 
