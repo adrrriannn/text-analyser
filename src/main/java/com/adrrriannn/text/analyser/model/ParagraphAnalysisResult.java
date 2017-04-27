@@ -50,7 +50,7 @@ public class ParagraphAnalysisResult {
             Long count = entry.getValue();
             if(parent.containsKey(key)) {
 
-                count = parent.get(key);
+                count = count + parent.get(key);
             }
             parent.put(key, count);
         }
